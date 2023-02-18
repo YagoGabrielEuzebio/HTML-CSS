@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+
+/* 
+ 
+    Tudo que em HTML é id em CSS vira #.
+    Tudo que em HTML é class em css vira .
+
+*/
+
+body {
+    background-color: #172026;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    color: #04BF9D;
+}
+
+p {
+    color: #04BF9D;
+}
+
+#principal {
+    color: #5FCDD9;
+    text-align: center;
+}
+
+h2 {
+    color: #027373;
+}

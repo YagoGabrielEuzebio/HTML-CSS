@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas:
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas:
+    em, ex, rem, vw, vh, %
+     
+    */
+    font-size: 1e,;
+}
+
+h1 {
+    /* 
+    Declaração Normal
+
+    font-family: ;
+    font-weight: ;
+    font-size: ;
+    font-style: ;
+
+    Shorthand font
+    - font-style -> font-weight -> font-size -> font-family
+    */
+    font: italic bolder 3em 'Wordk Sans', sans-serif;
+}
