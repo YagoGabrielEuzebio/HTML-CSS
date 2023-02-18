@@ -37,11 +37,11 @@ header {
 }
 
 header > h1 {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 header > p {
-    margin: 15px;
+    padding: 5px;
 }
 
 nav {
