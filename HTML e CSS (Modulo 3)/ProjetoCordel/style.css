@@ -1,17 +1,28 @@
 @charset "UTF-8";
 
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 * {
     margin: 0;
 }
 
+body {
+    height: 100vh;
+}
 
 header {
     background-color: black;
     color: white;
     text-align: center;
-    padding-top: 40px;
-    height: 100px;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Passion One';
+    font-size: 10vw;
+    font-variant: small-caps;
 }
 
 header a {
@@ -25,8 +36,10 @@ header a > strong:hover {
 }
 
 section p {
-    font-size: clamp(1em, 1em + 1vw, 1.5em);
+
     margin-top: 50px;
+    padding-left: 20px;
+    font-family: 'Sriracha';
 }
 
 
@@ -37,13 +50,14 @@ section p {
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 30px;
 }
 
 #paralaxflo p {
     position: absolute;
     color: white;
     background-color: rgba(0, 0, 0, 0.322);
-    width: 258px;
+    display: inline-block;
     padding: 10px 0px;
     margin-left: 20px;
 }
@@ -62,7 +76,7 @@ section p {
     position: absolute;
     color: white;
     background-color: rgba(0, 0, 0, 0.322);
-    width: 258px;
+    display: inline-block;
     padding: 10px 0px;
     margin-left: 20px;
     margin-top: 30px;
