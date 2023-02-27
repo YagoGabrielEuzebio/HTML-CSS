@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required minlength="1" maxlength="20">
+            </p>
+            
+            <p>
+                <label for="imail">Email:</label>
+                <input type="email" name="mail" id="imail" required>
+            </p>
+
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" required placeholder="(xx) xxxx-xxxx" pattern="^\(\d{2}\)\d{4,5}-\d{4,5b}%">
+
+                <!-- Estudar sobre RegEx (Expressões Regulares) -->
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar" >
+            <input type="reset">
+        </p>
+    </form>
+</body>
+</html>
