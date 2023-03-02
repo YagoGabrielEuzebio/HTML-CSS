@@ -1,0 +1,35 @@
+@charset 'UTF-8';
+
+@media screen and (min-width: 768px) {
+
+    i#burgue {
+        display: none;
+    }
+    
+    menu {
+        display: block;
+        
+    }
+
+    menu ul {
+        text-align: center;
+    }
+
+    menu a {
+        display: block;
+        padding: 10px;
+        background-color: rgb(182, 180, 180);
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        border: 1px solid black;
+    }
+
+    menu li {
+        display: inline-block;
+        margin: 5px;
+        width: 180px;
+    }
+    
+}
+
